@@ -1,0 +1,118 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+
+.page_main__GlU4n {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000, #c8c8c8);
+  animation: page_fadeIn__wvzG6 1s ease-in-out;
+}
+
+
+.page_container__aoG4z {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  animation: page_slideUp__hSTWN 0.7s ease-in-out;
+}
+
+
+.page_signin__anieO {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #044586, #109ada);
+  border-radius: 30px;
+
+}
+
+.page_desc__5JXkv {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+.page_input___cVLA {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  transition: border-color 0.3s;
+  background-color: rgba(181, 181, 181, 0.636);
+}
+
+.page_input___cVLA:focus {
+  outline: rgb(0, 0, 0);
+  border-color: #000000;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+.page_button__vnlhW {
+  transform:scale(2px);
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, #00d9ff, #013439);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.page_button__vnlhW:hover {
+  background-color: #556cd6;
+}
+
+
+.page_notResgitered___5v9f {
+  border: none;
+  background-color: transparent;
+  padding: 10px 0 0;
+  width: 100%;
+  margin-top: 1rem;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s;
+  height: 1rem ;
+}
+
+.page_notResgitered___5v9f:hover {
+  color: #2a3f50;
+}
+
+@keyframes page_fadeIn__wvzG6 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes page_slideUp__hSTWN {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
